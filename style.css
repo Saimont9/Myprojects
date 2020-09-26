@@ -1,0 +1,15 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background:url('assets/contour.png') no-repeat center top;
+}
+menu{
+ display: flex;
+ flex-direction: row;
+
+}
+.block{
+    width: 137px;
+    height: 1255px;
+    flex-direction: column;
+}
