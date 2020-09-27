@@ -176,6 +176,11 @@ li{
     position: absolute;
     margin-left:380px;
     margin-top:-50px;
+    color: #a7a7a7;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 88px;
 }
 .card1 h2{
     position: absolute;
