@@ -176,7 +176,7 @@ li{
     position: absolute;
     margin-left:380px;
     margin-top:-50px;
-    color: #a7a7a7;
+    color:#a7a7a7;
     font-family: Roboto;
     font-size: 22px;
     font-weight: 400;
@@ -199,6 +199,28 @@ li{
     margin-top:90px;
     margin-left:170px;
 }
+.continuebtn{
+    width: 221px;
+    height: 49px;
+    border-radius: 7px;
+    background-color: #1fb9b3;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    position:absolute;
+    margin-top: 280px;
+    margin-left:470px;
+}
+.continuebtn a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.36px;
+    line-height: 23px;
+    align-self:center;
+}
 .card2{
     width: 709px;
     height: 269px;
@@ -209,6 +231,49 @@ li{
     position: absolute;
     margin-top:600px;
     margin-left: 215px;
+}
+.card2 .cardimg{
+    position: absolute;
+    margin-left:-185px;
+    margin-top:-60px;
+}
+.card2 h2{
+    position: absolute;
+    margin-top:-44px;
+    margin-left:5px;
+    color:#fff;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.44px;
+    line-height: 23px;
+}
+.card2 .drgtime{
+    position: absolute;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.84px;
+    line-height: 23px;
+    text-transform: uppercase;
+    margin-left:20px;
+}
+.tmonsite p{
+    position: absolute;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 900;
+    margin-top:150px;
+    margin-left:190px;
+}
+.plmtime p{
+    position: absolute;
+    color:#000;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top:180px;
+    margin-left:190px;
 }
 .card3{
     width: 709px;
