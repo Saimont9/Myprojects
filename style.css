@@ -383,7 +383,6 @@ li{
 }
 .prmbtn a{
     margin-left:13px;
-    align-self: center;
     color: #000;
     font-family: Montserrat;
     font-size: 19px;
@@ -449,10 +448,260 @@ li{
     margin-top:90px;
 }
 .rightblock{
+    position: relative;
     width: 400px;
     height: 1180px;
     background-color: #343060;
     margin-top:200px;
     margin-left:1680px;
     border-radius: 20px 20px 0 0;
+}
+.persinfo .avatar{
+    position: absolute;
+    margin-left: -160px;
+    margin-top:-70px;
+}
+.persinfo .lineimg1{
+    position: absolute;
+    margin-left: -160px;
+    margin-top:65px;
+}
+.persinfo .lineimg2{
+    position: absolute;
+    margin-left: -160px;
+    margin-top:240px;
+}
+.persinfo .lightimg{
+    position: absolute;
+    margin-left: -160px;
+    margin-top:80px;
+}
+.persinfo .crownimg{
+    position: absolute;
+    margin-left: -160px;
+    margin-top:135px;
+}
+.persinfo .clockimg{
+    position: absolute;
+    margin-left: -158px;
+    margin-top:195px;
+}
+.nameid h2{
+    position: absolute;
+    margin-left:163px;
+    margin-top: 33px;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+}
+.nameid h3{
+    position: absolute;
+    margin-left:163px;
+    margin-top: 100px;
+    color:#fff;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform:uppercase;
+}
+.level p{
+    position: absolute;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 182px;
+    margin-left:70px;
+    line-height: 23px;
+}
+.coins p{
+    position: absolute;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 240px;
+    margin-left:70px;
+}
+.platform p{
+    position: absolute;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 296px;
+    margin-left:70px;
+}
+.achvts h3{
+    position: absolute;
+    color:#fff;
+    line-height: 23px;
+    margin-top:358px;
+    margin-left:33px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.achvts h4{
+    position: absolute;
+    color: #f9a020;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.36px;
+    line-height: 23px;
+    margin-left:100px;
+    margin-top: 550px;
+}
+.atton p{
+    position: absolute;
+    margin-top:490px;
+    margin-left:25px;
+    color:#fff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 23px;
+}
+.memry p{
+    position: absolute;
+    margin-top:490px;
+    margin-left:165px;
+    color:#fff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 23px;
+}
+.mind p{
+    position: absolute;
+    margin-top:490px;
+    margin-left:295px;
+    color:#fff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 300;
+
+}
+.kingimg{
+    position: absolute;
+    margin-left:-160px;
+    margin-top:290px;
+}
+.monkimg{
+    position: absolute;
+    margin-left:-37px;
+    margin-top:290px;
+}
+.heroimg{
+    position: absolute;
+    margin-left:90px;
+    margin-top:290px;
+}
+.lineimg3{
+    position: absolute;
+    margin-left:-160px;
+    margin-top: 500px;
+}
+.ntfns h3{
+    position: absolute;
+    margin-left:30px;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top:645px;
+    line-height: 23px;
+}
+.newmsg {
+    position: absolute;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top:708px;
+    margin-left:60px;
+}
+.medal {
+    position: absolute;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top:783px;
+    margin-left:60px;
+}
+.accrued{
+    position: absolute;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top:866px;
+    margin-left:60px;
+}
+.elipseimg1{
+    position: absolute;
+    margin-left:-160px;
+    margin-top:645px;
+}
+.elipseimg2{
+    position: absolute; 
+    margin-left:-160px;
+    margin-top:720px;
+}
+.elipseimg3{
+    position: absolute;
+    margin-left:-160px;
+    margin-top:800px;
+}
+.seeall p{
+    position: absolute;
+    color: #f9a020;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.36px;
+    line-height: 23px;
+    margin-left:100px;
+    margin-top:960px;
+}
+.lineimg4{
+    position: absolute;
+    margin-top:920px;
+    margin-left:-160px;
+}
+.rules{
+    position: absolute;
+    margin-top:950px;
+    margin-left:-160px;
+}
+.scam{
+    position: absolute;
+    margin-top:1015px;
+    margin-left:-160px;
+}
+.srv{
+    position: absolute;
+    margin-top:1040px;
+    margin-left:80px;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.36px;
+}
+.pbc{
+    position: absolute;
+    margin-top:1100px;
+    margin-left:80px;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.36px;
+    line-height: 23px;
 }
