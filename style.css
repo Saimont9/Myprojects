@@ -5,20 +5,23 @@ body {
     height: 1315px;
     width: 2140px;
     display: flex;
+    position:relative;
 }
-header{
-    position: relative;
+.spaceimg{
+    position: absolute;
+    margin-top:100px;
+    margin-left:180px;
 }
 header .search{
     position: absolute;
     text-align: center;
-    }
+    margin-top:17px;
+}
 menu{
     display: inline-flex;
     margin:0px;
 }   
 .block{
-    position: absolute;
     margin-top:15px;
     border: 1px solid #234d89;
     border-radius: 10px;
@@ -43,34 +46,59 @@ ul{
     align-items:center;
     margin:0px;
     padding: 0px;
+
 }
 .glasses{
     margin-bottom: 60px;
     margin-top:41px;
 }
+.glasses :hover{
+    transform: scale(1.1);
+} 
 .course .crsimg{
     margin-left: 0px;
 }
+.crsimg :hover{
+    transform: scale(1.2);
+} 
 .book .bkimg{
     margin-left: 10px;
 }
-.ps{
-
-}
+.bkimg :hover{
+    transform: scale(1.2);
+} 
 .add .addimg{
     margin-left: 10px;
 }
-.chat{
-
+.addimg :hover{
+    transform: scale(1.2);
+}
+.game {
+    margin-left:0px;
+}
+.gameimg :hover{
+    transform: scale(1.2);
+}
+.chatimg :hover{
+    transform: scale(1.2);
 }
 .subscribe .sbcimg{
     margin-left: 20px;
 }
+.sbcimg :hover{
+    transform: scale(1.2);
+}
 .question .qsnimg{
     margin-left: 10px;
 }
+.qsnimg :hover{
+    transform: scale(1.2);
+}
 .exit .extimg{
     margin-left: 5px;
+}
+.extimg :hover{
+    transform: scale(1.2);
 }
 .lineg{
     margin-top:100px;
@@ -79,14 +107,17 @@ ul{
     margin-top:14px;
 
 }
+.modeimg :hover{
+     transform: scale(1.2);
+}
 .sun p{
     margin-bottom: 15px;
 }
 li{
     list-style-type: none;
 } 
-.sun .mode{
-    margin-left:20px;
+.sun .modeimg{
+    margin-left:25px;
 }
 .search{
     width: 1900px;
@@ -126,6 +157,7 @@ li{
 }
 .content{
     position: relative;
+    margin-top:-28px;
 }
 .content img{
     position: absolute;
@@ -140,7 +172,7 @@ li{
     color:#fff;
     position: absolute;
     margin-top:150px;
-    margin-left:185px;
+    margin-left:46px;
 }
 .card1{
     width: 709px;
@@ -151,7 +183,7 @@ li{
     background-color: #343060;
     position: absolute;
     margin-top:200px;
-    margin-left:185px;
+    margin-left:46px;
 }
 .card1 .prfsimg{
     position: absolute;
@@ -237,7 +269,7 @@ li{
     border-radius: 16px;
     position: absolute;
     margin-top:620px;
-    margin-left: 185px;
+    margin-left: 49px;
 }
 .card2 .cardimg{
     position: absolute;
@@ -247,7 +279,7 @@ li{
 .card2 h2{
     position: absolute;
     margin-top:-44px;
-    margin-left:5px;
+    margin-left:0px;
     color:#fff;
     font-size: 22px;
     font-weight: 700;
@@ -290,7 +322,7 @@ li{
     border: 1px solid #234d89;
     background-color: #343060;
     position: absolute;
-    margin-left: 185px;
+    margin-left: 49px;
     margin-top: 998px;
 }
 .card3 h2{
@@ -347,7 +379,7 @@ li{
     background-color: #000038;
     position: absolute;
     margin-top: 200px;
-    margin-left: 930px;
+    margin-left: 800px;
 }
 .card4 .rbtimg{
     position: absolute;
@@ -411,7 +443,7 @@ li{
     background-color: #343060;
     position: absolute;
     margin-top:620px;
-    margin-left: 930px;
+    margin-left: 800px;
 }
 .card5img{
     margin-left:-195px;
@@ -446,7 +478,7 @@ li{
     background-color: #343060;
     position: absolute;
     margin-top: 998px;
-    margin-left: 930px;
+    margin-left: 800px;
 }
 .cowboyimg{
     margin-left:-170px;
@@ -458,10 +490,10 @@ li{
 .rightblock{
     position: relative;
     width: 400px;
-    height: 1180px;
+    height: 1195px;
     background-color: #343060;
     margin-top:200px;
-    margin-left:1680px;
+    margin-left:1545px;
     border-radius: 20px 20px 0 0;
 }
 .persinfo .avatar{
